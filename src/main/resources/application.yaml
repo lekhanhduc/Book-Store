@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: BOOK-STORE
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/book_store
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
